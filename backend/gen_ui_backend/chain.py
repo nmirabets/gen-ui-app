@@ -70,6 +70,7 @@ def invoke_tools(state: GenerativeUIState) -> GenerativeUIState:
     if state["tool_calls"] is not None:
         tool = state["tool_calls"][0]
         selected_tool = tools_map[tool["type"]]
+        print(tool)
         return {"tool_result": selected_tool.invoke(tool["args"])}
     else:
         raise ValueError("No tool calls found in state.")

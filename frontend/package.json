@@ -13,6 +13,7 @@
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@faker-js/faker": "^8.4.1",
+    "@heroicons/react": "^2.1.4",
     "@langchain/community": "^0.2.10",
     "@langchain/core": "^0.2.6",
     "@langchain/langgraph": "^0.0.22",
